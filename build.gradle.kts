@@ -4,7 +4,7 @@ plugins {
     id("net.labymod.gradle.addon")
 }
 
-group = "org.example"
+group = "top.niklas"
 version = "1.0.0"
 
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
@@ -12,9 +12,9 @@ java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 labyMod {
     defaultPackageName = "org.example" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
+        namespace = "labynet"
+        displayName = "Laby.net Addon"
+        author = "Niklas"
         description = "Example Description"
         minecraftVersion = "*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")

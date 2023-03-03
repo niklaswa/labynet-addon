@@ -1,7 +1,7 @@
 {
-  "example": {
+  "labynet": {
     "settings": {
-      "name": "ExampleAddon",
+      "name": "Laby.net addon",
       "enabled": {
         "name": "Enabled"
       }
